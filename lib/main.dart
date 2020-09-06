@@ -17,3 +17,25 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+/*
+
+
+ return MultiProvider(
+        providers:[
+          ChangeNotifierProvider(
+
+            create: (context) => TaskData(),
+
+        ),
+        ],
+      //builder: (context) => TaskData(),
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        home: TasksScreen(),
+      ),
+    );
+
+
+
+ */
